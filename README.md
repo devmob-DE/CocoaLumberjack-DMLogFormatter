@@ -16,6 +16,23 @@ Like this:
         [DDLog addLogger:ttyLogger];
     }
 
+##Sample Output
+
+<table width="100%">
+  <tr>
+    <th>Level</th>
+    <th>Date</th>
+    <th>@ Caller</th>
+    <th>(Line Number)</th>
+    <th># Message</th>
+  </tr>
+</table>
+
+            05.10.2012 16:10:41:622 @ AppDelegate.application:didFinishLaunchingWithOptions: (24) # This is a verbose message.
+            05.10.2012 16:10:41:622 @ AppDelegate.application:didFinishLaunchingWithOptions: (25) # This is a info message.
+    WARNING 05.10.2012 16:10:41:622 @ AppDelegate.application:didFinishLaunchingWithOptions: (26) # This is a warn message.
+      ERROR 05.10.2012 16:10:41:622 @ AppDelegate.application:didFinishLaunchingWithOptions: (27) # This is a error message.
+
 ##License
 
 Under MIT Licence.
